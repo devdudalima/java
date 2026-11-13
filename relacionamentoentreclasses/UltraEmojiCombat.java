@@ -10,10 +10,9 @@ public class UltraEmojiCombat {
          l[4] = new Lutador("Ninja", "Coreia do Sul", 22, 1.70f, 60.0f, 12, 4, 0);
          l[5] = new Lutador("CodeBreaker", "Alemanha", 26, 1.85f, 80.0f, 9, 2, 3);
          
-         l[3].ganharluta();
-         l[3].perderluta();
-         l[3].Status();
-
+        Luta UFC01 = new Luta();
+        UFC01.marcarLuta(l[0], l[5]);
+        UFC01.lutar();
 
     }
 }
